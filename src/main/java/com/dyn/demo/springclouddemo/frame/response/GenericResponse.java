@@ -1,5 +1,8 @@
 package com.dyn.demo.springclouddemo.frame.response;
 
+import lombok.Getter;
+
+@Getter
 public class GenericResponse<T> {
 
     private String code;
@@ -13,15 +16,6 @@ public class GenericResponse<T> {
         this.message = "成功";
         this.data = data;
     }
-
-    private GenericResponse(CodeMessage cm) {
-        if (cm == null) {
-            return;
-        }
-        this.code = cm.getCode();
-        this.message = cm.getMessage();
-    }
-
 
     private GenericResponse(CodeMessage cm, T data) {
         if (cm == null) {
@@ -42,19 +36,10 @@ public class GenericResponse<T> {
     }
 
     /**
-     * 失败时候的调用
-     *
-     * @return
-     */
-    public static <T> GenericResponse<T> build(CodeMessage cm) {
-        return new GenericResponse<T>(cm);
-    }
-
-    /**
-     * 失败时候的调用,有相应内容
+     * 失败时候的调用,有响应内容
      *
      * @param cm
-     * @param msg
+     * @param data
      * @return
      */
     public static <T> GenericResponse<T> build(CodeMessage cm, T data) {

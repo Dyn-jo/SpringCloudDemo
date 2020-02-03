@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ControllerAdvice
 public class MyExceptionHandler {
 
-
     /**
      * 业务异常
      *

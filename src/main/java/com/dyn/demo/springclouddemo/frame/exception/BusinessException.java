@@ -22,5 +22,4 @@ public class BusinessException extends RuntimeException {
         this.message = cm.getMessage();
     }
 
-
 }
