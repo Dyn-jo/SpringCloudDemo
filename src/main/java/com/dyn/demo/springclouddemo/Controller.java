@@ -21,6 +21,7 @@ public class Controller {
         System.out.println(configBean.getName() + "," + configBean.getAge());
         System.out.println(propBean.toString());
         System.out.println();
+
         return configBean.toString();
     }
 
