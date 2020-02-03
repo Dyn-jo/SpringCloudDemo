@@ -1,0 +1,37 @@
+2020-01-31 11:52:10.709  INFO 2116 --- [main] c.d.d.s.SpringclouddemoApplication       : Starting SpringclouddemoApplication on USER-20191130CS with PID 2116 (E:\project\idea-workspace\practice\springclouddemo\target\classes started by Administrator in E:\project\idea-workspace\practice\springclouddemo)
+2020-01-31 11:52:10.719  INFO 2116 --- [main] c.d.d.s.SpringclouddemoApplication       : The following profiles are active: dev
+2020-01-31 11:52:14.081  INFO 2116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-01-31 11:52:14.113  INFO 2116 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8081"]
+2020-01-31 11:52:14.116  INFO 2116 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-31 11:52:14.117  INFO 2116 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-31 11:52:14.409  INFO 2116 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-31 11:52:14.410  INFO 2116 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3565 ms
+2020-01-31 11:52:18.117  INFO 2116 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-31 11:52:18.678  INFO 2116 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8081"]
+2020-01-31 11:52:18.751  INFO 2116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-01-31 11:52:18.760  INFO 2116 --- [main] c.d.d.s.SpringclouddemoApplication       : Started SpringclouddemoApplication in 9.457 seconds (JVM running for 14.354)
+2020-01-31 11:53:36.022  INFO 2116 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-31 11:53:36.022  INFO 2116 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-31 11:53:36.037  INFO 2116 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-01-31 11:53:36.368  INFO 2116 --- [http-nio-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-31 11:53:36.680  INFO 2116 --- [http-nio-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-31 11:54:09.284  INFO 2116 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-31 11:54:09.286  INFO 2116 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-31 11:54:09.301  INFO 2116 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-31 11:54:21.192  INFO 10672 --- [main] c.d.d.s.SpringclouddemoApplication       : Starting SpringclouddemoApplication on USER-20191130CS with PID 10672 (E:\project\idea-workspace\practice\springclouddemo\target\classes started by Administrator in E:\project\idea-workspace\practice\springclouddemo)
+2020-01-31 11:54:21.199  INFO 10672 --- [main] c.d.d.s.SpringclouddemoApplication       : The following profiles are active: dev
+2020-01-31 11:54:23.422  INFO 10672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-01-31 11:54:23.438  INFO 10672 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8081"]
+2020-01-31 11:54:23.439  INFO 10672 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-31 11:54:23.439  INFO 10672 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-31 11:54:23.627  INFO 10672 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-31 11:54:23.628  INFO 10672 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2333 ms
+2020-01-31 11:54:25.043  INFO 10672 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-31 11:54:25.415  INFO 10672 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8081"]
+2020-01-31 11:54:25.463  INFO 10672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-01-31 11:54:25.469  INFO 10672 --- [main] c.d.d.s.SpringclouddemoApplication       : Started SpringclouddemoApplication in 5.727 seconds (JVM running for 8.193)
+2020-01-31 11:54:39.496  INFO 10672 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-31 11:54:39.496  INFO 10672 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-31 11:54:39.511  INFO 10672 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-01-31 11:54:39.726  INFO 10672 --- [http-nio-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-31 11:54:39.996  INFO 10672 --- [http-nio-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.

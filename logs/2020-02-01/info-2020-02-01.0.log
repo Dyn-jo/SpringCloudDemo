@@ -1,0 +1,33 @@
+2020-02-01 13:09:56.849  INFO 5772 --- [main] c.d.d.s.redis.RedisDaoTest               : Starting RedisDaoTest on USER-20191130CS with PID 5772 (started by Administrator in E:\project\idea-workspace\practice\springclouddemo)
+2020-02-01 13:09:56.853  INFO 5772 --- [main] c.d.d.s.redis.RedisDaoTest               : The following profiles are active: dev
+2020-02-01 13:09:58.481  INFO 5772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-01 13:09:58.487  INFO 5772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-01 13:09:58.575  INFO 5772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 0 Redis repository interfaces.
+2020-02-01 13:09:59.483  INFO 5772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-01 13:10:03.286  INFO 5772 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-01 13:10:04.439  INFO 5772 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-01 13:10:04.498  INFO 5772 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-01 13:14:18.613  INFO 6764 --- [main] c.d.d.s.redis.RedisDaoTest               : Starting RedisDaoTest on USER-20191130CS with PID 6764 (started by Administrator in E:\project\idea-workspace\practice\springclouddemo)
+2020-02-01 13:14:18.616  INFO 6764 --- [main] c.d.d.s.redis.RedisDaoTest               : The following profiles are active: dev
+2020-02-01 13:14:20.363  INFO 6764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-01 13:14:20.373  INFO 6764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-01 13:14:20.496  INFO 6764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 0 Redis repository interfaces.
+2020-02-01 13:14:21.639  INFO 6764 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-01 13:14:25.809  INFO 6764 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-01 13:14:27.127  INFO 6764 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-01 13:14:27.205  INFO 6764 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-01 13:15:57.853  INFO 11232 --- [main] c.d.d.s.redis.RedisDaoTest               : Starting RedisDaoTest on USER-20191130CS with PID 11232 (started by Administrator in E:\project\idea-workspace\practice\springclouddemo)
+2020-02-01 13:15:57.857  INFO 11232 --- [main] c.d.d.s.redis.RedisDaoTest               : The following profiles are active: dev
+2020-02-01 13:15:59.517  INFO 11232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-01 13:15:59.525  INFO 11232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-02-01 13:15:59.631  INFO 11232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 0 Redis repository interfaces.
+2020-02-01 13:16:00.591  INFO 11232 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-01 13:16:04.721  INFO 11232 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-01 13:16:06.043  INFO 11232 --- [main] c.d.d.s.redis.RedisDaoTest               : Started RedisDaoTest in 9.524 seconds (JVM running for 12.503)
+2020-02-01 13:16:14.114  INFO 11232 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-02-01 13:16:14.134  INFO 11232 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-02-01 13:16:18.673  INFO 11232 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
